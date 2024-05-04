@@ -11,9 +11,7 @@ const SearchBox = () => {
         className={css.input}
         type="text"
         value={inputValue}
-        onChange={(evt) => {
-          changeFilter(setInputValue(evt.target.value));
-        }}
+        onChange={(evt) => changeFilter(setInputValue(evt.target.value))}
         placeholder="Rosie Simpson"
       />
     </div>
